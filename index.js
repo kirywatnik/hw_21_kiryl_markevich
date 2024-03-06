@@ -168,7 +168,91 @@ x.addEventListener('click', () => {
     histList.style.display = 'none';
 });
 
-
+window.addEventListener('keydown', (event) => {
+    if(event.key==='1'){
+        one.click();
+    }
+});
+window.addEventListener('keydown', (event) => {
+    if(event.key==='2'){
+        two.click();
+    }
+});
+window.addEventListener('keydown', (event) => {
+    if(event.key==='3'){
+        three.click();
+    }
+});
+window.addEventListener('keydown', (event) => {
+    if(event.key==='4'){
+        four.click();
+    }
+});
+window.addEventListener('keydown', (event) => {
+    if(event.key==='5'){
+        five.click();
+    }
+});
+window.addEventListener('keydown', (event) => {
+    if(event.key==='6'){
+        six.click();
+    }
+})
+window.addEventListener('keydown', (event) => {
+    if(event.key==='7'){
+        seven.click();
+    }
+});
+window.addEventListener('keydown', (event) => {
+    if(event.key==='8'){
+        eight.click();
+    }
+});
+window.addEventListener('keydown', (event) => {
+    if(event.key==='9'){
+        nine.click();
+    }
+});
+window.addEventListener('keydown', (event) => {
+    if(event.key==='0'){
+        zero.click();
+    }
+});
+window.addEventListener('keydown', (event) => {
+    if(event.key==='Enter'){
+        ravno.click();
+    }
+});
+window.addEventListener('keydown', (event) => {
+    if(event.key==='+'){
+        sum.click();
+    }
+});
+window.addEventListener('keydown', (event) => {
+    if(event.key==='-'){
+        minus.click();
+    }
+});
+window.addEventListener('keydown', (event) => {
+    if(event.key==='*'){
+        mul.click();
+    }
+});
+window.addEventListener('keydown', (event) => {
+    if(event.key==='/'){
+        delenie.click();
+    }
+});
+window.addEventListener('keydown', (event) => {
+    if(event.key==='Backspace'){
+        del.click();
+    }
+});
+window.addEventListener('keydown', (event) => {
+    if(event.key==='.'){
+        dot.click();
+    }
+});
 
 
 
